@@ -1,0 +1,62 @@
+{
+	"official":	"https://xlang.link/",
+	"version":	"v2.0.21.14951",
+	"projects":	[{
+			"version":	"1.2",
+			"language":	"xlang",
+			"icofile":	"",
+			"sources":	["SMA.x"],
+			"configures":	{
+				"debug":	{
+					"path":	{
+						"incpath":	[],
+						"libpath":	["E:\\Developments\\Cadaqs\\caNamespace\\castudio\\xcross\\xlang\\xlang\\Projects\\XTrader\\x64\\link\\"]
+					},
+					"options":	"",
+					"libs":	[],
+					"links":	["XTrader.xl"],
+					"depends":	[],
+					"showlw":	"",
+					"ignorewarning":	"",
+					"warexcp":	"",
+					"compdest":	"",
+					"ignorewl":	"",
+					"debugable":	"-dbg",
+					"debugdatabase":	"",
+					"warnilptr":	"",
+					"strlistfile":	"",
+					"languagefile":	"",
+					"stringoutput":	"",
+					"cmd":	"$(Output)",
+					"args":	"$(Output)",
+					"workdir":	"$(ProjectDir)",
+					"wtype":	"",
+					"ostype":	"",
+					"sstype":	"-console",
+					"icofile":	"",
+					"outname":	"$(ProjectName)$(Ext)",
+					"outpath":	"E:\\Developments\\Cadaqs\\caNamespace\\castudio\\xcross\\xlang\\xlang\\Projects\\XTrader\\x64\\debug\\indicators",
+					"command":	"-slx -c",
+					"uaclevel":	"默认"
+				},
+				"release":	{
+					"path":	{
+						"incpath":	[],
+						"libpath":	[]
+					},
+					"libs":	[],
+					"options":	"-nd",
+					"command":	"-ce",
+					"debugable":	"",
+					"sstype":	"-console",
+					"outpath":	"$(ProjectDir)/$(Arch)/$(Configure)",
+					"outname":	"$(ProjectName)$(Ext)",
+					"cmd":	"$(Output)",
+					"args":	"$(Output)",
+					"workdir":	"$(ProjectDir)"
+				}
+			},
+			"name":	"SMA",
+			"versioninc":	"0"
+		}]
+}

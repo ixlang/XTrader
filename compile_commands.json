@@ -1,0 +1,203 @@
+[{
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"XTrader.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	".\\xlang\\Dialog.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"MT5Plugins.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"TradingView.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"TradingData.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"_generated_uiclass/Dialog_internal.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"SoundMgr.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"ContextMenu.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"EAInterface.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"./Fibonacci.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"HLine.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"TrendLine.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"ControlPoint.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"DrawObject.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"XABCDObject.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"DigiInput.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"UIManager.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"FMMStyleManager.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"Setting.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"Preference.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"TextUtils.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"AssetsManager.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"SystemSetting.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"TextDetail.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"OrderObject.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"TVToolBar.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"XTickChat.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"_generated_uiclass/Login_internal.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"xlang/Login.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"XTMessageBox.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"VLine.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"Alarm.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"Arraw.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"HisIndic.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"Triangle.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"Channel.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"Andrew.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"_generated_uiclass/ComponentConfigure_internal.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"xlang/ComponentConfigure.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"_generated_uiclass/ComponentList_internal.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"xlang/ComponentList.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"EASystem.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"_generated_uiclass/IndicatorManager_internal.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"xlang/IndicatorManager.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"XPropertyBrowser.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"AlertDialog.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"TextLabel.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"LongArraw.x"
+	}]",
+		"file":	"AlertDialog.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"TextLabel.x"
+	}, {
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader",
+		"command":	"-libpath \"libs\" -lib \"Qt_5.9.9.13.lix\" \"FileStream_1.0.0.13.lix\"  -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader\"",
+		"file":	"LongArraw.x"
+	}]

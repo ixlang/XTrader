@@ -1,0 +1,21 @@
+{
+    "exports":	["EASystem",
+                 "Symbol",
+                 "IPosition",
+                 "IOrder",
+                 "EAController",
+                 "ExpertAdvisor",
+                 "ENUM_TIMEFRAMES",
+                 "Bar",
+                 "OBJECT_TYPE",
+                 "IndicatorSystem",
+                 "Indicator",
+                 "BarGroup",
+                 "IConfigure",
+                 "CFG_DATA_TYPE",
+                 "TradingView",
+                 "QPainter",
+                 "Qt",
+                 "IndicatorShell"
+                 ]
+}

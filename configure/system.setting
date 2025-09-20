@@ -1,0 +1,135 @@
+{
+    "系统": {
+        "外观模式:performance_mode": {
+            "type": "stringlist",
+            "list": [
+                "最好性能",
+                "最佳外观"
+            ]
+        },
+        "界面字体:ui_font": {
+            "type":"stringlist",
+            "list":[
+                "$(ui_font)",
+                "选择字体..."
+            ]
+        },
+        "外观颜色:swcolor": {
+            "type": "stringlist",
+            "list": [
+                "深色",
+                "浅色"
+            ]
+        }
+    },
+    "消息与通知": {
+        "操作提示音:optionring": {
+            "type": "bool"
+        },
+        "经济日历报警:ecalert": {
+            "type":"stringlist",
+            "list":[
+                "不报警",
+                "全部",
+                ">=低影响力事件",
+                ">=中影响力事件",
+                ">=高影响力事件"
+            ]
+        }
+    },
+    "EA交易": {
+        "EA交易:eatrad": {
+            "type": "bool"
+        }
+    },
+    "图表": {
+        "字体:chat_font": {
+            "type":"stringlist",
+            "list":[
+                "$(chat_font)",
+                "选择字体..."
+            ]
+        },
+        "显示买价线:askshow": {
+            "type": "bool"
+        },
+        "显示倒计时:timeremain": {
+            "type": "bool"
+        },
+        "显示成交量:showvol": {
+            "type": "bool"
+        },
+        "显示K线数量:showknum": {
+            "type": "bool"
+        },
+        "显示网格:grid": {
+            "type": "bool"
+        },
+        "显示品种水印:showwm": {
+            "type": "bool"
+        },
+        "时间偏移(秒):timeoffset": {
+            "type": "string"
+        },
+        "时间格式:timeformat": {
+            "type": "string"
+        },
+        "显示Tick视图:tickview": {
+            "type": "bool"
+        },
+        "显示工具栏:toolbar": {
+            "type": "bool"
+        },
+        "平仓确认:closeconfirm": {
+            "type": "bool"
+        },
+        "记住仓位数量:saveposcount": {
+            "type": "bool"
+        },
+        "盈亏显示方式:pldisplay": {
+            "type":"stringlist",
+            "list":[
+                "金额",
+                "点数"
+            ]
+        }
+    },
+    "图表配色": {
+        "默认配色:defclrcfg": {
+            "type": "stringlist",
+            "list": [
+                "跟随外观样式",
+                "自定义"
+            ]
+        },
+        "背景色:chatbk": {
+            "type": "color"
+        },
+        "前景色:chatfr": {
+            "type": "color"
+        },
+        "上涨K颜色:riseclr": {
+            "type": "color"
+        },
+        "下跌K颜色:fallclr": {
+            "type": "color"
+        },
+        "网格颜色:gridclr": {
+            "type": "color"
+        },
+        "边栏颜色:borderclr": {
+            "type": "color"
+        },
+        "图表样式:kmode": {
+            "type": "stringlist",
+            "list": [
+                "阴阳烛",
+                "趋势线",
+                "美国线"
+            ]
+        }
+    },
+    "其他设置": {
+
+    }
+}

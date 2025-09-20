@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1243</width>
+    <height>921</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::StrongFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>XTrader</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,1,0,0">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="FMTitleBar" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>42</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>42</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="0,1,0,0,0,0">
+      <property name="spacing">
+       <number>4</number>
+      </property>
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="wicon_2">
+        <property name="minimumSize">
+         <size>
+          <width>26</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>26</width>
+          <height>26</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#wicon_2{
+  border-image:url($(assets)/res/ic_launcher.png);
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="systitle">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>-1</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#title{
+ font-size:12pt;
+ font-family:&quot;Microsoft YaHei&quot;;
+ color:#ffffff;
+}</string>
+        </property>
+        <property name="text">
+         <string>金颖金颖智慧门店</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <widget class="QPushButton" name="sysmsg">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>24</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>24</width>
+           <height>24</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>24</width>
+           <height>24</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>-1</pointsize>
+          </font>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="toolTip">
+          <string>消息</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton{
+  border-image:url($(assets)/res/sysmsg.png);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="autoDefault">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="newmsg">
+         <property name="geometry">
+          <rect>
+           <x>14</x>
+           <y>0</y>
+           <width>10</width>
+           <height>10</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>8</width>
+           <height>8</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Microsoft YaHei</family>
+           <pointsize>-1</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:#ff0000;
+border-radius:5px;
+color:#ffffff;
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="sysmin">
+        <property name="minimumSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>-1</pointsize>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="toolTip">
+         <string>最小化</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">.QPushButton{
+  border-image:url($(assets)/res/sysm.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="sysmax">
+        <property name="minimumSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>-1</pointsize>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="toolTip">
+         <string>最大化/恢复窗口</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">.QPushButton{
+  border-image:url($(assets)/res/sysx.png); 
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="sysclose">
+        <property name="minimumSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft YaHei</family>
+          <pointsize>-1</pointsize>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="toolTip">
+         <string>退出</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">.QPushButton{
+  border-image:url($(assets)/res/sysc.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QMenuBar" name="menuBar">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <widget class="QMenu" name="menu_F">
+      <property name="title">
+       <string>文件(&amp;F)</string>
+      </property>
+      <addaction name="action"/>
+      <addaction name="actionconnect"/>
+      <addaction name="separator"/>
+      <addaction name="actionprint"/>
+      <addaction name="separator"/>
+      <addaction name="actionexitr"/>
+     </widget>
+     <widget class="QMenu" name="menu_O">
+      <property name="title">
+       <string>选项(&amp;O)</string>
+      </property>
+      <addaction name="actionsetup"/>
+     </widget>
+     <widget class="QMenu" name="menu_V_2">
+      <property name="title">
+       <string>视图(V)</string>
+      </property>
+      <widget class="QMenu" name="menu">
+       <property name="title">
+        <string>添加对象</string>
+       </property>
+       <widget class="QMenu" name="menuaddarrow">
+        <property name="title">
+         <string>箭头</string>
+        </property>
+        <addaction name="actionarrowl"/>
+        <addaction name="actionarrowr"/>
+        <addaction name="actionarrowt"/>
+        <addaction name="actionarrowb"/>
+       </widget>
+       <addaction name="actionaddhline"/>
+       <addaction name="actionaddvline"/>
+       <addaction name="menuaddarrow"/>
+       <addaction name="actionaddfb"/>
+       <addaction name="actionaddfbt"/>
+       <addaction name="actionandrew"/>
+       <addaction name="actiontrandline"/>
+       <addaction name="actionXABCD"/>
+       <addaction name="actionalarm"/>
+       <addaction name="actiontriangle"/>
+       <addaction name="actiontext"/>
+       <addaction name="actionlineto"/>
+      </widget>
+      <widget class="QMenu" name="menu_2">
+       <property name="title">
+        <string>图表</string>
+       </property>
+       <addaction name="action1_min"/>
+       <addaction name="action2_Min"/>
+       <addaction name="action3_M"/>
+       <addaction name="action4_M"/>
+       <addaction name="action5_M"/>
+       <addaction name="action6_M"/>
+       <addaction name="action10_M"/>
+       <addaction name="action12_M"/>
+       <addaction name="action15_Min"/>
+       <addaction name="action20_Min"/>
+       <addaction name="action30_Min"/>
+       <addaction name="action1_Hour"/>
+       <addaction name="action2_Hours"/>
+       <addaction name="action3_Hour3"/>
+       <addaction name="action4_Hours"/>
+       <addaction name="action6_Hours"/>
+       <addaction name="action8_Hours"/>
+       <addaction name="action12_Hours"/>
+       <addaction name="action1_Day"/>
+       <addaction name="action1_Week"/>
+       <addaction name="action1_Month"/>
+      </widget>
+      <addaction name="menu"/>
+      <addaction name="menu_2"/>
+      <addaction name="actionkbar"/>
+      <addaction name="actiontrendk"/>
+      <addaction name="actionusak"/>
+     </widget>
+     <widget class="QMenu" name="menu_A">
+      <property name="title">
+       <string>关于(A)</string>
+      </property>
+      <addaction name="actionWebver"/>
+      <addaction name="actiondocument"/>
+      <addaction name="actionabout"/>
+     </widget>
+     <addaction name="menu_F"/>
+     <addaction name="menu_V_2"/>
+     <addaction name="menu_O"/>
+     <addaction name="menu_A"/>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolBar" name="toolbar">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <addaction name="actionkbar"/>
+     <addaction name="actiontrendk"/>
+     <addaction name="actionusak"/>
+     <addaction name="separator"/>
+     <addaction name="action1_min"/>
+     <addaction name="action2_Min"/>
+     <addaction name="action3_M"/>
+     <addaction name="action4_M"/>
+     <addaction name="action5_M"/>
+     <addaction name="action6_M"/>
+     <addaction name="action10_M"/>
+     <addaction name="action12_M"/>
+     <addaction name="action15_Min"/>
+     <addaction name="action20_Min"/>
+     <addaction name="action30_Min"/>
+     <addaction name="action1_Hour"/>
+     <addaction name="action2_Hours"/>
+     <addaction name="action3_Hour3"/>
+     <addaction name="action4_Hours"/>
+     <addaction name="action6_Hours"/>
+     <addaction name="action8_Hours"/>
+     <addaction name="action12_Hours"/>
+     <addaction name="action1_Day"/>
+     <addaction name="action1_Week"/>
+     <addaction name="action1_Month"/>
+     <addaction name="separator"/>
+     <addaction name="actionaddhline"/>
+     <addaction name="actionaddvline"/>
+     <addaction name="actionaddfb"/>
+     <addaction name="actiontrandline"/>
+     <addaction name="actionXABCD"/>
+     <addaction name="actionalarm"/>
+     <addaction name="actionarrowl"/>
+     <addaction name="actionarrowt"/>
+     <addaction name="actionarrowr"/>
+     <addaction name="actionarrowb"/>
+     <addaction name="actiontriangle"/>
+     <addaction name="actionaddfbt"/>
+     <addaction name="actiontext"/>
+     <addaction name="actionlineto"/>
+     <addaction name="actionandrew"/>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="contentWidget">
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>689</width>
+       <height>546</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QWidget" name="unnamed1" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>8</number>
+       </property>
+       <property name="topMargin">
+        <number>8</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QSplitter" name="horizontalSplitter_2">
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>518</width>
+           <height>269</height>
+          </size>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QWidget" name="layoutWidget">
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <property name="leftMargin">
+              <number>6</number>
+             </property>
+             <property name="topMargin">
+              <number>4</number>
+             </property>
+             <property name="rightMargin">
+              <number>4</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>订阅列表</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="edFilter">
+               <property name="placeholderText">
+                <string>过滤...</string>
+               </property>
+               <property name="clearButtonEnabled">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QTreeWidget" name="symbollist">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="indentation">
+              <number>0</number>
+             </property>
+             <property name="sortingEnabled">
+              <bool>true</bool>
+             </property>
+             <column>
+              <property name="text">
+               <string notr="true">1</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,0">
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QComboBox" name="comboBox">
+               <property name="editable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_4">
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>+订阅品种</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="widget_4" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="0">
+           <property name="spacing">
+            <number>3</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QSplitter" name="horizontalSplitter">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>260</width>
+               <height>228</height>
+              </size>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <widget class="QWidget" name="verticalLayoutWidget">
+              <layout class="QVBoxLayout" name="verticalLayout_13">
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QWidget" name="chatwidget" native="true">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::StrongFocus</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="verticalLayoutWidget_2">
+              <layout class="QVBoxLayout" name="verticalLayout_14">
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QTreeWidget" name="kstree">
+                 <property name="indentation">
+                  <number>0</number>
+                 </property>
+                 <property name="sortingEnabled">
+                  <bool>true</bool>
+                 </property>
+                 <column>
+                  <property name="text">
+                   <string notr="true">1</string>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_10" stretch="1,0">
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_10">
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_6">
+                   <property name="minimumSize">
+                    <size>
+                     <width>60</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string>刷新</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="currentIndex">
+       <number>4</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string> 开仓部位 </string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,0,0,0,0,0,0,0,0">
+          <property name="spacing">
+           <number>9</number>
+          </property>
+          <property name="leftMargin">
+           <number>4</number>
+          </property>
+          <property name="topMargin">
+           <number>4</number>
+          </property>
+          <property name="rightMargin">
+           <number>4</number>
+          </property>
+          <property name="bottomMargin">
+           <number>4</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="lblstate">
+            <property name="text">
+             <string>净值</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>组合平仓  -  </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>仓位:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="cmbSym">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>120</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="editable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>方向:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="cmbDir">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>盈利情况:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="cmbProfit">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="minimumSize">
+             <size>
+              <width>56</width>
+              <height>26</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string>平仓</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTreeWidget" name="poslist">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="indentation">
+           <number>0</number>
+          </property>
+          <column>
+           <property name="text">
+            <string notr="true">1</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string> 挂单 </string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QTreeWidget" name="orderlist">
+          <property name="indentation">
+           <number>0</number>
+          </property>
+          <column>
+           <property name="text">
+            <string notr="true">1</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>订单历史</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QTreeWidget" name="hispos">
+          <column>
+           <property name="text">
+            <string notr="true">1</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="totalprofit">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string> 账户信息 </string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QTreeWidget" name="accountinfo">
+          <property name="indentation">
+           <number>0</number>
+          </property>
+          <column>
+           <property name="text">
+            <string notr="true">1</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_8">
+       <attribute name="title">
+        <string>经济日历</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>6</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="0,0,0,1,0">
+          <item>
+           <widget class="QDateTimeEdit" name="dateTimeEdit_3">
+            <property name="calendarPopup">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>影响力:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="cmbInflev"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="ecstate">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>刷新</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTreeWidget" name="eclist">
+          <property name="indentation">
+           <number>0</number>
+          </property>
+          <property name="sortingEnabled">
+           <bool>true</bool>
+          </property>
+          <column>
+           <property name="text">
+            <string notr="true">1</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string> 模拟/回放 </string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_7" stretch="0,1">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="0,0,0,0,0,0,1,0">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>开始时间:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QDateTimeEdit" name="dateTimeEdit">
+            <property name="calendarPopup">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>结束时间</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QDateTimeEdit" name="dateTimeEdit_2">
+            <property name="calendarPopup">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>测试类型</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox_2"/>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_2" native="true"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="text">
+             <string>开始</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_5" native="true"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string> 策略 </string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="text">
+           <string>加载EA</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_7">
+       <attribute name="title">
+        <string>日志</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>4</number>
+        </property>
+        <property name="rightMargin">
+         <number>4</number>
+        </property>
+        <property name="bottomMargin">
+         <number>4</number>
+        </property>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="frmMainsizeGrip" native="true">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="0,1,0,0">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>4</number>
+      </property>
+      <property name="topMargin">
+       <number>6</number>
+      </property>
+      <property name="rightMargin">
+       <number>2</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="statleft">
+        <property name="styleSheet">
+         <string notr="true">color:#ffffff;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_6" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>1</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="statright">
+        <property name="styleSheet">
+         <string notr="true">color:#00ff00;
+font-size:11px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_7" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+  <action name="actionprint">
+   <property name="text">
+    <string>打印</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>打开数据文件</string>
+   </property>
+  </action>
+  <action name="actionconnect">
+   <property name="text">
+    <string>连接到...</string>
+   </property>
+  </action>
+  <action name="actionexitr">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionsetup">
+   <property name="text">
+    <string>设置</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionaddhline">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/HLINE.png</normaloff>$(assets)/res/toolbar/HLINE.png</iconset>
+   </property>
+   <property name="text">
+    <string>水平线</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+H</string>
+   </property>
+  </action>
+  <action name="actionaddvline">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/VLINE.png</normaloff>$(assets)/res/toolbar/VLINE.png</iconset>
+   </property>
+   <property name="text">
+    <string>垂直线</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+V</string>
+   </property>
+  </action>
+  <action name="actionarrowl">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/aleft_i.png</normaloff>$(assets)/res/toolbar/aleft_i.png</iconset>
+   </property>
+   <property name="text">
+    <string>左箭头</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Left</string>
+   </property>
+  </action>
+  <action name="actionarrowr">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/aright_i.png</normaloff>$(assets)/res/toolbar/aright_i.png</iconset>
+   </property>
+   <property name="text">
+    <string>右箭头</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Right</string>
+   </property>
+  </action>
+  <action name="actionarrowt">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/aup_i.png</normaloff>$(assets)/res/toolbar/aup_i.png</iconset>
+   </property>
+   <property name="text">
+    <string>上箭头</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Up</string>
+   </property>
+  </action>
+  <action name="actionarrowb">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/adown_i.png</normaloff>$(assets)/res/toolbar/adown_i.png</iconset>
+   </property>
+   <property name="text">
+    <string>下箭头</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Down</string>
+   </property>
+  </action>
+  <action name="actionaddfb">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/FB.png</normaloff>$(assets)/res/toolbar/FB.png</iconset>
+   </property>
+   <property name="text">
+    <string>斐波拉切回撤线</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionaddfbt">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/channel.png</normaloff>$(assets)/res/toolbar/channel.png</iconset>
+   </property>
+   <property name="text">
+    <string>斐波拉切通道</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+C</string>
+   </property>
+  </action>
+  <action name="actionandrew">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/andrew.png</normaloff>$(assets)/res/toolbar/andrew.png</iconset>
+   </property>
+   <property name="text">
+    <string>安德鲁音叉</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+A</string>
+   </property>
+  </action>
+  <action name="action1_min">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/m1.png</normaloff>$(assets)/res/toolbar/m1.png</iconset>
+   </property>
+   <property name="text">
+    <string>1 Min</string>
+   </property>
+  </action>
+  <action name="action2_Min">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/M2.png</normaloff>$(assets)/res/toolbar/M2.png</iconset>
+   </property>
+   <property name="text">
+    <string>2 Min</string>
+   </property>
+  </action>
+  <action name="action3_M">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/M3.png</normaloff>$(assets)/res/toolbar/M3.png</iconset>
+   </property>
+   <property name="text">
+    <string>3 Min</string>
+   </property>
+  </action>
+  <action name="action4_M">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/M4.png</normaloff>$(assets)/res/toolbar/M4.png</iconset>
+   </property>
+   <property name="text">
+    <string>4 Min</string>
+   </property>
+  </action>
+  <action name="action5_M">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/M5.png</normaloff>$(assets)/res/toolbar/M5.png</iconset>
+   </property>
+   <property name="text">
+    <string>5 Min</string>
+   </property>
+  </action>
+  <action name="action6_M">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/M6.png</normaloff>$(assets)/res/toolbar/M6.png</iconset>
+   </property>
+   <property name="text">
+    <string>6 Min</string>
+   </property>
+  </action>
+  <action name="action10_M">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/M10.png</normaloff>$(assets)/res/toolbar/M10.png</iconset>
+   </property>
+   <property name="text">
+    <string>10 Min</string>
+   </property>
+  </action>
+  <action name="action12_M">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/M12.png</normaloff>$(assets)/res/toolbar/M12.png</iconset>
+   </property>
+   <property name="text">
+    <string>12 Min</string>
+   </property>
+  </action>
+  <action name="action15_Min">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/M15.png</normaloff>$(assets)/res/toolbar/M15.png</iconset>
+   </property>
+   <property name="text">
+    <string>15 Min</string>
+   </property>
+  </action>
+  <action name="action20_Min">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/M20.png</normaloff>$(assets)/res/toolbar/M20.png</iconset>
+   </property>
+   <property name="text">
+    <string>20 Min</string>
+   </property>
+  </action>
+  <action name="action30_Min">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/M30.png</normaloff>$(assets)/res/toolbar/M30.png</iconset>
+   </property>
+   <property name="text">
+    <string>30 Min</string>
+   </property>
+  </action>
+  <action name="action1_Hour">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/H1.png</normaloff>$(assets)/res/toolbar/H1.png</iconset>
+   </property>
+   <property name="text">
+    <string>1 Hour</string>
+   </property>
+  </action>
+  <action name="action2_Hours">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/H2.png</normaloff>$(assets)/res/toolbar/H2.png</iconset>
+   </property>
+   <property name="text">
+    <string>2 Hours</string>
+   </property>
+  </action>
+  <action name="action3_Hour3">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/H3.png</normaloff>$(assets)/res/toolbar/H3.png</iconset>
+   </property>
+   <property name="text">
+    <string>3 Hours</string>
+   </property>
+  </action>
+  <action name="action4_Hours">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/H4.png</normaloff>$(assets)/res/toolbar/H4.png</iconset>
+   </property>
+   <property name="text">
+    <string>4 Hours</string>
+   </property>
+  </action>
+  <action name="action6_Hours">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/H6.png</normaloff>$(assets)/res/toolbar/H6.png</iconset>
+   </property>
+   <property name="text">
+    <string>6 Hours</string>
+   </property>
+  </action>
+  <action name="action8_Hours">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/H8.png</normaloff>$(assets)/res/toolbar/H8.png</iconset>
+   </property>
+   <property name="text">
+    <string>8 Hours</string>
+   </property>
+  </action>
+  <action name="action12_Hours">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/H12.png</normaloff>$(assets)/res/toolbar/H12.png</iconset>
+   </property>
+   <property name="text">
+    <string>12 Hours</string>
+   </property>
+  </action>
+  <action name="action1_Day">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/D1.png</normaloff>$(assets)/res/toolbar/D1.png</iconset>
+   </property>
+   <property name="text">
+    <string>1 Day</string>
+   </property>
+  </action>
+  <action name="action1_Week">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/W1.png</normaloff>$(assets)/res/toolbar/W1.png</iconset>
+   </property>
+   <property name="text">
+    <string>1 Week</string>
+   </property>
+  </action>
+  <action name="action1_Month">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/MN.png</normaloff>$(assets)/res/toolbar/MN.png</iconset>
+   </property>
+   <property name="text">
+    <string>1 Month</string>
+   </property>
+  </action>
+  <action name="actiontrandline">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/TR.png</normaloff>$(assets)/res/toolbar/TR.png</iconset>
+   </property>
+   <property name="text">
+    <string>趋势线</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+T</string>
+   </property>
+  </action>
+  <action name="actionXABCD">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/XABCD.png</normaloff>$(assets)/res/toolbar/XABCD.png</iconset>
+   </property>
+   <property name="text">
+    <string>XABCD</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+X</string>
+   </property>
+  </action>
+  <action name="actionalarm">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/alarm.png</normaloff>$(assets)/res/toolbar/alarm.png</iconset>
+   </property>
+   <property name="text">
+    <string>价格警报</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionkbar">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/kbar.png</normaloff>$(assets)/res/toolbar/kbar.png</iconset>
+   </property>
+   <property name="text">
+    <string>阴阳烛</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+K</string>
+   </property>
+  </action>
+  <action name="actiontrendk">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/line.png</normaloff>$(assets)/res/toolbar/line.png</iconset>
+   </property>
+   <property name="text">
+    <string>折线</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionusak">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/usak.png</normaloff>$(assets)/res/toolbar/usak.png</iconset>
+   </property>
+   <property name="text">
+    <string>美国线</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+U</string>
+   </property>
+  </action>
+  <action name="actiontriangle">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/triangle.png</normaloff>$(assets)/res/toolbar/triangle.png</iconset>
+   </property>
+   <property name="text">
+    <string>三角</string>
+   </property>
+  </action>
+  <action name="actiontext">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/text.png</normaloff>$(assets)/res/toolbar/text.png</iconset>
+   </property>
+   <property name="text">
+    <string>文本</string>
+   </property>
+  </action>
+  <action name="actionlineto">
+   <property name="icon">
+    <iconset>
+     <normaloff>$(assets)/res/toolbar/lineto.png</normaloff>$(assets)/res/toolbar/lineto.png</iconset>
+   </property>
+   <property name="text">
+    <string>长箭头</string>
+   </property>
+  </action>
+  <action name="actionWebver">
+   <property name="text">
+    <string>Web 版 XTrader</string>
+   </property>
+  </action>
+  <action name="actiondocument">
+   <property name="text">
+    <string>用户文档</string>
+   </property>
+  </action>
+  <action name="actionabout">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

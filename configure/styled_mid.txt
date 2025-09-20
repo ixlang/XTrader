@@ -1,0 +1,51 @@
+
+#FMTitleBar{
+    background:#34495E;
+    border-top: 2px solid #34495E;
+    border-left: 2px solid #34495E;
+    border-right: 2px solid #34495E;
+}
+#FMTitleBar QPushButton{
+    background: #00000000;
+    border:none;
+    color:#ffffff;
+    border-radius: 3px;
+    padding-bottom:3px;
+}
+#FMTitleBar QPushButton:hover{ 
+    background: #3fffffff;
+}
+
+#FMTitleBar QLabel{
+    color:#ffffff;
+}
+
+#BottomBar{
+    background:#F5F5F5;
+    border-bottom: 2px solid #34495E;
+    border-left: 2px solid #34495E;
+    border-right: 2px solid #34495E;
+}
+
+#frmMainsizeGrip{
+	background-color:#34495E;
+} 
+
+#frmsizeGrip{
+	border-left: 2px solid #34495E;
+	border-right: 2px solid #34495E;
+    border-bottom: 2px solid #34495E;
+}
+
+#contentWidget{
+	border-left: 2px solid #34495E;
+	border-right: 2px solid #34495E;
+}
+
+#dialogContentWidget{
+	background:#ffffff;
+	border-left: 2px solid #34495E;
+	border-right: 2px solid #34495E;
+	border-top: 1px solid #DADADA;
+	border-bottom: 1px solid #DADADA;
+}

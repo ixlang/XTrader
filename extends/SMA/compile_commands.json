@@ -1,0 +1,5 @@
+[{
+		"directory":	"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader/extends/SMA",
+		"command":	"-libpath \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader/x64/link/\" -link \"XTrader.xl\" -console -dir \"E:/Developments/Cadaqs/caNamespace/castudio/xcross/xlang/xlang/Projects/XTrader/extends/SMA\"",
+		"file":	"SMA.x"
+	}]

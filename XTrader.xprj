@@ -1,0 +1,207 @@
+{
+	"official":	"https://xlang.link/",
+	"version":	"v2.0.21.14951",
+	"projects":	[{
+			"version":	"1.2",
+			"language":	"xlang",
+			"sources":	["XTrader.x", "ui/dialog.ui", ".\\xlang\\Dialog.x", "MT5Plugins.x", "TradingView.x", "TradingData.x", "_generated_uiclass/Dialog_internal.x", "SoundMgr.x", "ContextMenu.x", "data/FIX44.xml", "EAInterface.x", "./export.xdef", "./Fibonacci.x", "HLine.x", "TrendLine.x", "ControlPoint.x", "DrawObject.x", "XABCDObject.x", "DigiInput.x", "UIManager.x", "FMMStyleManager.x", "Setting.x", "Preference.x", "TextUtils.x", "AssetsManager.x", "SystemSetting.x", "TextDetail.x", "ui/goods_confirm.ui", "configure/styled_full.txt", "configure/styled_mid.txt", "configure/system.setting", "assets/res/qss/style_template.qss", "OrderObject.x", "TVToolBar.x", "XTickChat.x", "ui/login.ui", "_generated_uiclass/Login_internal.x", "xlang/Login.x", "ui/messagebox.ui", "XTMessageBox.x", "VLine.x", "version.version", "Alarm.x", "ui/setting.ui", "assets/res/qss/style_light.qss", "configure/dark.cfg", "configure/light.cfg", "Arraw.x", "HisIndic.x", "Triangle.x", "Channel.x", "Andrew.x", "_generated_uiclass/ComponentConfigure_internal.x", "ui/ComponentConfigure.ui", "xlang/ComponentConfigure.x", "_generated_uiclass/ComponentList_internal.x", "ui/ComponentList.ui", "xlang/ComponentList.x", "EASystem.x", "./ui/IndicatorManager.ui", "_generated_uiclass/IndicatorManager_internal.x", "xlang/IndicatorManager.x", "XPropertyBrowser.x", "AlertDialog.x", "ui/alertDialog.ui", "TextLabel.x", "LongArraw.x"],
+			"configures":	{
+				"debug":	{
+					"path":	{
+						"incpath":	[],
+						"libpath":	["libs"]
+					},
+					"options":	"",
+					"cmd":	"$(Output)",
+					"args":	"$(Output)",
+					"workdir":	"$(ProjectDir)",
+					"prebuild":	"",
+					"preclean":	"",
+					"makebuild":	"",
+					"makeclean":	"",
+					"afterbuild":	"",
+					"afterclean":	"",
+					"wtype":	"",
+					"ostype":	"",
+					"sstype":	"",
+					"icofile":	"ico.ico",
+					"outname":	"$(ProjectName)$(Ext)",
+					"outpath":	"$(ProjectDir)/$(Arch)/$(Configure)",
+					"command":	"-ce",
+					"uaclevel":	"默认",
+					"libs":	["Qt_5.9.9.13.lix", "FileStream_1.0.0.13.lix"],
+					"links":	[],
+					"depends":	[{
+							"name":	"Qt",
+							"version":	"5.9.9.13"
+						}, {
+							"name":	"FileStream",
+							"version":	"1.0.0.13"
+						}],
+					"showlw":	"",
+					"ignorewarning":	"",
+					"warexcp":	"",
+					"compdest":	"-z",
+					"ignorewl":	"324;204;164;317;322;163",
+					"debugable":	"-dbg",
+					"debugdatabase":	"",
+					"warnilptr":	"",
+					"strlistfile":	"",
+					"languagefile":	"",
+					"stringoutput":	""
+				},
+				"release":	{
+					"path":	{
+						"incpath":	[],
+						"libpath":	[]
+					},
+					"libs":	[],
+					"options":	"-nd",
+					"command":	"-ce",
+					"debugable":	"",
+					"outpath":	"$(ProjectDir)/$(Arch)/$(Configure)",
+					"outname":	"$(ProjectName)$(Ext)",
+					"cmd":	"$(Output)",
+					"args":	"$(Output)",
+					"workdir":	"$(ProjectDir)"
+				},
+				"link":	{
+					"path":	{
+						"incpath":	[],
+						"libpath":	["libs"]
+					},
+					"options":	"",
+					"name":	"link",
+					"libs":	["Qt_5.9.9.13.lix", "FileStream_1.0.0.13.lix"],
+					"links":	[],
+					"depends":	[{
+							"name":	"Qt",
+							"version":	"5.9.9.13"
+						}, {
+							"name":	"FileStream",
+							"version":	"1.0.0.13"
+						}],
+					"showlw":	"",
+					"ignorewarning":	"",
+					"warexcp":	"",
+					"compdest":	"",
+					"ignorewl":	"",
+					"debugable":	"-dbg",
+					"debugdatabase":	"",
+					"warnilptr":	"",
+					"strlistfile":	"",
+					"languagefile":	"",
+					"stringoutput":	"",
+					"cmd":	"$(Output)",
+					"args":	"$(Output)",
+					"workdir":	"$(ProjectDir)",
+					"prebuild":	"",
+					"preclean":	"",
+					"makebuild":	"",
+					"makeclean":	"",
+					"afterbuild":	"",
+					"afterclean":	"",
+					"wtype":	"",
+					"ostype":	"",
+					"sstype":	"",
+					"icofile":	"",
+					"outname":	"$(ProjectName)$(Ext)",
+					"outpath":	"$(ProjectDir)/$(Arch)/$(Configure)",
+					"command":	"-xl -c",
+					"uaclevel":	"默认"
+				},
+				"linux_debug":	{
+					"path":	{
+						"incpath":	[],
+						"libpath":	["libs"]
+					},
+					"options":	"",
+					"libs":	["FileStream_1.0.0.13.lix", "Qt_5.9.9.14.lix"],
+					"links":	[],
+					"depends":	[{
+							"name":	"FileStream",
+							"version":	"1.0.0.13"
+						}, {
+							"name":	"Qt",
+							"version":	"5.9.9.14"
+						}],
+					"cmd":	"$(Output)",
+					"args":	"$(Output)",
+					"workdir":	"$(ProjectDir)",
+					"prebuild":	"",
+					"preclean":	"",
+					"makebuild":	"",
+					"makeclean":	"",
+					"afterbuild":	"",
+					"afterclean":	"",
+					"showlw":	"",
+					"ignorewarning":	"",
+					"warexcp":	"",
+					"compdest":	"-z",
+					"ignorewl":	"",
+					"debugable":	"-dbg",
+					"debugdatabase":	"",
+					"warnilptr":	"",
+					"strlistfile":	"",
+					"languagefile":	"",
+					"stringoutput":	"",
+					"name":	"linux_debug",
+					"wtype":	"-arch:x86_64",
+					"ostype":	"-xcross-linux",
+					"sstype":	"",
+					"icofile":	"ico.ico",
+					"outname":	"$(ProjectName)$(Ext)",
+					"outpath":	"$(ProjectDir)/$(Arch)/$(Configure)",
+					"command":	"-ce",
+					"uaclevel":	"默认"
+				},
+				"macos_debug":	{
+					"path":	{
+						"incpath":	[],
+						"libpath":	["libs"]
+					},
+					"options":	"",
+					"libs":	["FileStream_1.0.0.13.lix", "Qt_5.9.9.14.lix"],
+					"links":	[],
+					"depends":	[{
+							"name":	"FileStream",
+							"version":	"1.0.0.13"
+						}, {
+							"name":	"Qt",
+							"version":	"5.9.9.14"
+						}],
+					"cmd":	"$(Output)",
+					"args":	"$(Output)",
+					"workdir":	"$(ProjectDir)",
+					"prebuild":	"",
+					"preclean":	"",
+					"makebuild":	"",
+					"makeclean":	"",
+					"afterbuild":	"",
+					"afterclean":	"",
+					"showlw":	"",
+					"ignorewarning":	"",
+					"warexcp":	"",
+					"compdest":	"-z",
+					"ignorewl":	"",
+					"debugable":	"-dbg",
+					"debugdatabase":	"",
+					"warnilptr":	"",
+					"strlistfile":	"",
+					"languagefile":	"",
+					"stringoutput":	"",
+					"name":	"macos_debug",
+					"wtype":	"-arch:x86_64",
+					"ostype":	"-xcross-darwin",
+					"sstype":	"",
+					"icofile":	"ico.ico",
+					"outname":	"$(ProjectName)$(Ext)",
+					"outpath":	"$(ProjectDir)/$(Arch)/$(Configure)",
+					"command":	"-ce",
+					"uaclevel":	"默认"
+				}
+			},
+			"name":	"XTrader",
+			"versioninc":	"1"
+		}]
+}
