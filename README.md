@@ -94,4 +94,5 @@ interface Indicator{
 项目UI使用了 Qt for xlang 库，该库开源，但需注意 Qt 的授权限制。
 程序图表完全自绘，主要类TradingView(文件为 TradingView.x).
 
+此外，还有 XTrader web 版，http://xtrader.uri.plus/ 和此客户端具有完全相同的功能。
  
