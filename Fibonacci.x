@@ -7,7 +7,9 @@ class Fibonacci : public DrawObject {
     QRect topbarrc = new QRect();
     QPointF ps = new QPointF (0, 0), pe = new QPointF (0, 0);
     bool bFill = false;
+    
     float lineWidth = 2;
+    
     int over = -1;
     ControlPoint stpt = new ControlPoint(), edpt = new ControlPoint();
     long xtrs = 0;

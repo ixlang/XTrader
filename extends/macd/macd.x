@@ -154,7 +154,7 @@ class MACD : Indicator {
         canvas.setPen(tv.clrText);
         canvas.drawText(getDescrName(), 6, 12);
 
-    	if (macdData.size() == 0){
+    	if (macdData.size() == 0 || length == 0){
     		return;
     	}
     	int count = Math.min(length, macdData.size());
