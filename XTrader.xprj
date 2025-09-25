@@ -21,14 +21,6 @@
 					"makeclean":	"",
 					"afterbuild":	"",
 					"afterclean":	"",
-					"wtype":	"",
-					"ostype":	"",
-					"sstype":	"",
-					"icofile":	"ico.ico",
-					"outname":	"$(ProjectName)$(Ext)",
-					"outpath":	"$(ProjectDir)/$(Arch)/$(Configure)",
-					"command":	"-ce",
-					"uaclevel":	"默认",
 					"libs":	["Qt_5.9.9.13.lix", "FileStream_1.0.0.13.lix"],
 					"links":	[],
 					"depends":	[{
@@ -48,7 +40,15 @@
 					"warnilptr":	"",
 					"strlistfile":	"",
 					"languagefile":	"",
-					"stringoutput":	""
+					"stringoutput":	"",
+					"wtype":	"",
+					"ostype":	"",
+					"sstype":	"",
+					"icofile":	"ico.ico",
+					"outname":	"$(ProjectName)$(Ext)",
+					"outpath":	"$(ProjectDir)/$(Arch)/$(Configure)",
+					"command":	"-ce",
+					"uaclevel":	"默认"
 				},
 				"release":	{
 					"path":	{

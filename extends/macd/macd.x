@@ -154,11 +154,13 @@ class MACD : Indicator {
         canvas.setPen(tv.clrText);
         canvas.drawText(getDescrName(), 6, 12);
 
-    	if (macdData.size() == 0 || length == 0){
+    	if (macdData.size() == 0 || length == 0 || start < 0 || start > macdData.size()){
     		return;
     	}
-    	int count = Math.min(length, macdData.size());
-
+    	int count = Math.min(length, macdData.size() - start);
+        if (count <= 0){
+            return;
+        }
         canvas.translate(xoffset, ytranslate);
         double sig = w / length;
         float sw = sig;

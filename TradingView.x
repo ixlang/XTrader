@@ -2105,7 +2105,13 @@ class TradingView
                 s.rect = new QRect(0, h, w, h + _indic.height());
                 canvas.translate(0, h);
                 canvas.setClipRect(0, 0, w, _indic.height(), ClipOperation.ReplaceClip);
-                _indic.draw(this, canvas, xoffset, start, count, singleWidth * count * this.data.xzoom, _indic.height(), w);
+                
+                try{
+                	_indic.draw(this, canvas, xoffset, start, count, singleWidth * count * this.data.xzoom, _indic.height(), w);
+                }catch(Exception e){
+                	Dialog.OutputLogcat("指标[" + _indic.getName() + "]存在错误: Exception:" + e.getMessage());
+                }
+                
                 canvas.setClipRect(0, 0, w, _indic.height(), ClipOperation.NoClip);
                 canvas.translate(0, -h);
                 h += (_indic.height());
